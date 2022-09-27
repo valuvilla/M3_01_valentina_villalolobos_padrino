@@ -13,5 +13,8 @@ peso = float(input("Introduce peso: "))
 print("P1 : La altura es {} metros y el peso es de {} KG".format(alt, peso))
 print("P2 : La altura es {0} metros y el peso es de {1} KG".format(alt, peso))
 print("P3 : La altura es {1} metros y el peso es de {0} KG".format(peso, alt))
-print("P4 : La altura es {first} metros y el peso es de {last} KG".format(first=alt, last=peso))
-print("P5: La altura es {alt} metros y el peso es de {peso} KG".format(alt=alt, peso=peso))
+print("P4: La altura es {alt} metros y el peso es de {peso} KG".format(alt=alt, peso=peso))
+print(f'P5: la altura es {alt} metros y el peso es de {peso} KG')
+
+
+      
