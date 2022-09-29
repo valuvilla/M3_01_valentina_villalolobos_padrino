@@ -1,0 +1,6 @@
+n2 = int(input("Dime un número entero: "))
+print(n2,(type(n2)))
+print("\n")
+n3 = float(input("Dime un número flotante:" ))
+print(n3, type(n3))   
+print("\n")
