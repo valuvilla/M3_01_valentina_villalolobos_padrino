@@ -1,15 +1,3 @@
-n2 = int(input("Dime un número entero: "))
-print(n2,(type(n2)))
-print("\n")
-n3 = float(input("Dime un número flotante:" ))
-print(n3, type(n3))   
-print("\n")
-#########################
-e1= int(input("dime un número entero: "))
-print("{:05d}".format(e1))
-e2= float(input("Dime un número flotante: "))
-print("{:08.03f}".format(e2))
-#########################
 alt = float(input("Introduce altura: "))
 peso = float(input("Introduce peso: "))
 print("P1 : La altura es {:.02f} metros y el peso es de {:.03f} KG".format(alt, peso))
